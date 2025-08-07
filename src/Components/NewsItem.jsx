@@ -14,7 +14,7 @@ export default function NewsItem(props) {
         <p>{new Date(props.date).toLocaleDateString()}</p>
     </div>
     <p className="card-text">{props.description}</p>
-    <Link to={props.url} target="_blank" rel="norererrer" className="btn btn-primary backgrond w-100">Read Full Article</Link>
+    <Link to={props.url} target="_blank" rel="norererrer" className="btn btn-primary backgrond w-100">Read Full Articles</Link>
   </div>
 </div>
     </div>
